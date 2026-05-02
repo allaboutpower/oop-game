@@ -22,22 +22,9 @@ Hero-Based Combat Engine
 本系統採用分層與模組化設計，主要包含以下核心組件：
 
 ### 🔹 1. 核心角色系統（Hero System）
-Unified Update Pipeline
-```cpp
-void Hero::update() {
-    if (update_hitstun()) {
-        update_attack_box();
-        return;
-    }
+`Hero.cpp`:
+`Hero.h`:
 
-    // Input → Movement → State transition
-    // Physics update (jump, gravity)
-    // Animation update
-
-    update_attack_box();
-    update_bitmap_from_state();
-}
-```
 功能：
 - 定義所有角色共用邏輯
 - 包含移動、跳躍、受擊、攻擊等基礎行為
