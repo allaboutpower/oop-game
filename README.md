@@ -7,11 +7,7 @@ Hero-Based Combat Engine
 本專案為一個基於 **C++ 物件導向（OOP）設計的 2D 戰鬥遊戲系統**，實作角色控制、技能系統與戰鬥機制。  
 
 核心架構透過：
-- 繼承（Inheritance）
-- 多型（Polymorphism）
-- 模組化設計（Modular Design）
-
-建立一個**高擴充性（Extensible）且低耦合（Low Coupling）**的遊戲系統。
+- 繼承（Inheritance）、多型（Polymorphism）、模組化設計（Modular Design）建立一個**高擴充性（Extensible）且低耦合（Low Coupling）**的遊戲系統。
 
 系統支援：
 - 多角色（Hero）擴展  
