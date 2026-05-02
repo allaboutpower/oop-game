@@ -48,6 +48,22 @@ void Hero::update() {
 - 管理角色狀態（State Machine）
 - 控制動畫與 hitbox
 
+State Machine (Behavior Control)
+```cpp
+enum class HeroState {
+    IDLE,
+    MOVING,
+    PUNCH1,
+    JUMPING,
+    DEFENDING,
+    SHOOT,
+    ULTIMATE,
+    DEAD
+};
+```
+控制角色所有行為
+避免行為衝突，例如攻擊時無法移動
+讓動畫與遊戲邏輯保持同步
 👉 為整個遊戲的「核心引擎」
 
 ---
